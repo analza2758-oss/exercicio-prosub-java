@@ -25,7 +25,7 @@ public class GestaoSubmarino {
             System.out.println("Nível de acesso solicitado: TOTAL. \nAcesso autorizado ao Almirantado");
         } else {
             System.out.println("Status: ACESSO NEGADO \nSoberania Nacional preservada. Dados criptografados. ");
-            return; // PARA AQUI
+            return;
         }
 
         System.out.print("Informe a temperatura do reator nuclear: ");
